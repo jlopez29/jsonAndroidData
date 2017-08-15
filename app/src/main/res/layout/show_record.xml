@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="50dp">
+
+        <TextView
+            android:id="@+id/rInfoHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:text="Records Info"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/recordImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/rInfoHeader"
+            android:text="Image: "/>
+
+        <ImageView
+            android:id="@+id/recordImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/recordImageView"
+            android:layout_marginLeft="150dp" />
+
+        <TextView
+            android:id="@+id/recordIDview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/recordImageView"
+            android:text="ID:"/>
+
+        <TextView
+            android:id="@+id/recordID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/recordIDview"
+            android:layout_alignBottom="@+id/recordIDview"
+            android:layout_marginLeft="150dp" />
+
+        <TextView
+            android:id="@+id/recordNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/recordIDview"
+            android:text="Name:"/>
+
+        <TextView
+            android:id="@+id/recordName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/recordNameView"
+            android:layout_alignBottom="@+id/recordNameView"
+            android:layout_marginLeft="150dp"/>
+
+        <TextView
+            android:id="@+id/recordAgeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/recordNameView"
+            android:text="Age:"/>
+
+        <TextView
+            android:id="@+id/recordAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/recordAgeView"
+            android:layout_alignBottom="@+id/recordAgeView"
+            android:layout_marginLeft="150dp" />
+
+        <TextView
+            android:id="@+id/recordPhoneView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/recordAgeView"
+            android:text="Phone:"/>
+
+        <TextView
+            android:id="@+id/recordPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_alignBaseline="@+id/recordPhoneView"
+            android:layout_alignBottom="@+id/recordPhoneView"
+             />
+
+        <TextView
+            android:id="@+id/recordDateView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/recordPhoneView"
+            android:text="Date:"/>
+
+        <TextView
+            android:id="@+id/recordDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/recordDateView"
+            android:layout_alignBottom="@+id/recordDateView"
+            android:layout_marginLeft="150dp"/>
+
+    </RelativeLayout>
+</ScrollView>
