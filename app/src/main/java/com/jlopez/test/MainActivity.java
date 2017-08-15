@@ -216,7 +216,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 Map<String, String>  params = new HashMap<String, String>();
-                params.put("Authorization", "Bearer e50aea95e02cefea0b90176af2aae2f06c9cd1ae");
+                params.put("Authorization", "Bearer e46aa593207080b8e90506e4888de00da406f266");
 
                 return params;
             }
@@ -276,7 +276,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 Map<String, String>  params = new HashMap<String, String>();
-                params.put("Authorization", "Bearer e50aea95e02cefea0b90176af2aae2f06c9cd1ae");
+                params.put("Authorization", "Bearer e46aa593207080b8e90506e4888de00da406f266");
 
                 return params;
             }
